@@ -1,0 +1,94 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 1%;
+  width: 100px;
+  color: white;
+  background-color: #2821ab;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgb(171, 175, 175);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: black;
+  background-color: white;
+  transition: 0.6s;
+}
+
+.botao-a {
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #2821ab;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(171, 175, 175);
+    text-decoration: none;
+}
+
+
+ .botao-a:hover {
+    color: black;
+    background-color: white;
+    transition: 0.6s;
+}
+
+.container {
+    align-items: center;
+    height: 100vh;
+    display: grid;
+  }
+  
+  .form-login {
+    box-shadow:  10px 10px 10px rgb(171, 175, 175);
+    width: 50%;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 10px 0;
+    padding-bottom: 40px;
+  }
+  
+  input {
+    display: block;
+    margin: 12px 0;
+    width: 97%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #a7a7a7;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #2821ab;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(171, 175, 175);
+  }
+  
+  button:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: 0.6s;
+  }
+
+  .registro-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
